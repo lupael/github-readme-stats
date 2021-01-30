@@ -11,10 +11,10 @@
       <img src="https://codecov.io/gh/lupael/github-readme-stats/branch/master/graph/badge.svg" />
     </a>
     <a href="https://github.com/lupael/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+      <img alt="Issues" src="https://img.shields.io/github/issues/lupael/github-readme-stats?color=0088ff" />
     </a>
     <a href="https://github.com/lupael/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/lupael/github-readme-stats?color=0088ff" />
     </a>
     <br />
     <br />
@@ -73,7 +73,7 @@ Copy-paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael)](https://github.com/lupael/github-readme-stats)
+[![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael)](https://github.com/lupael/github-readme-stats)
 ```
 
 _Note: Available ranks are S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone).
@@ -87,7 +87,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma-s
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=contribs,prs)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=contribs,prs)
 ```
 
 ### Adding private contributions count to total commits count
@@ -99,7 +99,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 > Options: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&count_private=true)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&count_private=true)
 ```
 
 ### Showing icons
@@ -107,7 +107,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 To enable icons, you can pass `show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true)
 ```
 
 ### Themes
@@ -117,7 +117,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `?theme=THEME_NAME` parameter like so :-
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true&theme=radical)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes :-
@@ -299,37 +299,37 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - Default
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael)
 
 - Hiding specific stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=contribs,issues)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=contribs,issues)
 
 - Showing icons
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=issues&show_icons=true)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=issues&show_icons=true)
 
 - Include All Commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&include_all_commits=true)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&include_all_commits=true)
 
 - Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true&theme=radical)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true&theme=radical)
 
 - Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Customizing stats card
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lupael&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lupael&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Setting card locale
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lupael&locale=es)
+![Lupael's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lupael&locale=es)
 
 - Customizing repo card
 
@@ -359,8 +359,6 @@ You usually won't be able to layout the images side by side. To do that you can 
 ```
 
 ## Deploy on your own Vercel instance
-
-#### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
 Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
 
