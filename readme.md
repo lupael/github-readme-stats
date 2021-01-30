@@ -353,7 +353,7 @@ You usually won't be able to layout the images side by side. To do that you can 
 <a href="https://github.com/lupael/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lupael&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/lupael/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lupael&repo=convoychat" />
 </a>
 ```
