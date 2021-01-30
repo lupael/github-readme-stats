@@ -4,16 +4,16 @@
  <p align="center">Get dynamically generated GitHub stats on your readmes!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/lupael/github-readme-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/lupael/github-readme-stats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/lupael/github-readme-stats">
+      <img src="https://codecov.io/gh/lupael/github-readme-stats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+    <a href="https://github.com/lupael/github-readme-stats/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+    <a href="https://github.com/lupael/github-readme-stats/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/lupael/github-readme-stats/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/lupael/github-readme-stats/issues/new/choose">Request Feature</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -206,19 +206,19 @@ Yay! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
+Endpoint: `api/pin?username=lupael&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lupael&repo=github-readme-stats)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lupael&repo=github-readme-stats)](https://github.com/lupael/github-readme-stats)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lupael&repo=github-readme-stats&show_owner=true)](https://github.com/lupael/github-readme-stats)
 
 # Top Languages Card
 
@@ -233,7 +233,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/top-langs?username=anuraghazra`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Exclude individual repositories
@@ -241,7 +241,7 @@ Endpoint: `api/top-langs?username=anuraghazra`
 You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael&exclude_repo=github-readme-stats, lupael.github.io)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Hide individual languages
@@ -249,7 +249,7 @@ You can use `?exclude_repo=repo1,repo2` parameter to exclude individual reposito
 You can use `?hide=language1,language2` parameter to hide individual languages.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael&hide=javascript,html)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Show more languages
@@ -257,7 +257,7 @@ You can use `?hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael&langs_count=8)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Compact Language Card Layout
@@ -265,16 +265,16 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/lupael/github-readme-stats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael)](https://github.com/lupael/github-readme-stats)
 
 - Compact layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lupael&layout=compact)](https://github.com/lupael/github-readme-stats)
 
 # Wakatime Week Stats
 
@@ -300,29 +300,29 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - Default
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael)
 
 - Hiding specific stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=contribs,issues)
 
 - Showing icons
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&hide=issues&show_icons=true)
 
 - Include All Commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&include_all_commits=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&include_all_commits=true)
 
 - Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&show_icons=true&theme=radical)
 
 - Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lupael&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Customizing stats card
 
