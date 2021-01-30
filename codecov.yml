@@ -11,3 +11,4 @@ coverage:
       default:
         threshold: 5
     patch: false
+CODECOV_TOKEN="1204ebb9-e8d2-4787-a82b-6df948b7c593
